@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #111;
+            color: #fff;
+        }
+
+        #navigation-bar {
+            width: 100%;
+            max-width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        #navigation-bar a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+        }
+
+        #banner {
+            width: 75%;
+            max-width: 1024px;
+            margin-bottom: 20px;
+        }
+
+        #banner img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        #product-logo {
+            
+            max-width: 50%;
+            margin: 10px 0;
+        }
+
+        section {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #333;
+            transition: transform 0.3s ease-in-out;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        #left-section {
+            width: 20%;
+            overflow: hidden;
+            position: relative;
+            margin-right: 15px;
+        }
+
+        #image-container {
+            text-align: center;
+            position: relative;
+        }
+
+        #image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #larger-image-link {
+            position: relative;
+            bottom: 95%;
+            left: 2%;
+            transform: translateX(-50%);
+            background-color: #3d4a49;
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 10px;
+            border-radius: 6%;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #larger-image-link:hover {
+            background-color: #2c4642;
+        }
+
+        #right-section {
+            width: 100%;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        h2 {
+            color: #fff;
+            margin-top: 0;
+        }
+
+        p {
+            color: #ccc;
+        }
+
+        ul {
+            color: #ccc;
+            padding-left: 20px;
+        }
+           #buy-now-button {
+            
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3d4a49;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease-in-out;
+            margin: 0 auto;
+            margin-left: 320px;
+            margin-right: 320px;
+            display: block;
+        }
+
+        #buy-now-button:hover {
+            background-color: #42b3a2;
+        }
+
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            margin-left: 270px;
+        }
+
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        th {
+            background-color: #333;
+        }
+     canada{
+        border-radius: 8px;
+        margin-top: 20px ;
+     }
+    </style>
+    
+</head>
+<body>
+    
+    <div id="banner">
+        <img src="banner.jpg" alt="Product Banner">
+    </div>
+
+    <a href="https://www.apple.com/" id="product-logo" target="_blank">
+        <img src="iphone logo.jpg" alt="Company Logo">
+    </a>
+
+    <div id="navigation-bar">
+        <a href="index.html">HomePage</a>
+        <a href="https://www.apple.com/ca/store">Explore More</a>
+    </div>
+    
+    <section id="left-section">
+        <div id="image-container">
+            <img src="iphone2.jpg" alt="Image Description">
+            <a href="Details.html" id="larger-image-link" target="_blank">View Larger Image</a>
+        </div>
+    </section>
+
+    <section id="right-section">
+        <h2>iPhone 15 Pro Max</h2>
+        <p>
+            Take your smartphone experience to the next level with the iPhone 15 Pro Max. Equipped with state-of-the-art features, an impressive display, and exceptional performance, the iPhone 15 Pro Max redefines what a smartphone can do.
+        </p>
+        <p>
+            <strong>Key Features:</strong>
+        </p>
+        <ul>
+            <li>6.9-inch Super Retina XDR display</li>
+            <li>Quad-lens camera system with advanced imaging capabilities</li>
+            <li>A18 Bionic chip for unparalleled speed and efficiency</li>
+            <li>Extended battery life for all-day usage</li>
+            <li>5G connectivity for lightning-fast data speeds</li>
+        </ul>
+        <p>
+            Unlock endless possibilities with the iPhone 15 Pro Max. From capturing stunning photos to seamless connectivity and enhanced productivity, this device has it all.
+        </p>
+        <a href="https://www.apple.com/ca/shop/buy-iphone/iphone-15-pro" id="buy-now-button" target="_blank">Buy Now</a>
+    </section>
+   
+    <table>
+        <tr>
+            <th>Models</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>iPhone 15</td>
+            <td>$1129</td>
+        </tr>
+        <tr>
+            <td>iPhone 14</td>
+            <td>$999</td>
+        </tr>
+        <tr>
+            <td>iPhone SE</td>
+            <td>$579</td>
+        </tr>
+    </table>
+    <map name="Canada">
+        <img src="canada map.jpg" alt="Map of Canada" width="600" height="500" usemap="#Canada">
+        <area shape="rect" coords="5,204,100,548" href="https://www.apple.com/ca/retail/metrotown/?cid=aos-ca-seo-maps" title="British Columbia">
+        <area shape="rect" coords="119,285,190,509" href="https://www.apple.com/ca/retail/westedmonton/?cid=aos-ca-seo-maps" title="Alberta">
+        <area shape="rect" coords="268,336,445,576" href="https://www.apple.com/ca/retail/sherwaygardens/?cid=aos-ca-seo-maps" title="Ontario">
+    </map>
+
+</body>
+</html>
