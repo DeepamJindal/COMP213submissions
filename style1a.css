@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Property Images section */
+#property-images img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* Key Facts section */
+#key-facts ul {
+    list-style-type: none;
+}
+
+#key-facts ul li {
+    margin-bottom: 5px;
+}
+
+/* Description section */
+#description p {
+    margin-bottom: 20px;
+}
+
+/* Property History section */
+#property-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#property-history th, #property-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#property-history th {
+    background-color: #f2f2f2;
+}
+
+/* Mortgage Calculator and Request a Tour sections */
+#mortgage-calculator, #request-tour {
+    margin-top: 30px;
+}
+
+#mortgage-calculator label, #request-tour label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#mortgage-calculator input[type="number"], #request-tour input[type="date"], #request-tour select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#mortgage-calculator button, #request-tour button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mortgage-calculator button:hover, #request-tour button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
